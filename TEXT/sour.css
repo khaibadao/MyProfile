@@ -1,0 +1,203 @@
+:root{
+	--cam : #FF5500;
+	--xam : #404040;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.circle 
+{
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	background-color: white;
+	border: 3px solid var(--xam);
+	margin: 30px;
+	overflow: hidden;  /* Bo đều ảnh mà không méo */
+	background-size: cover;       /* Ảnh phủ toàn bộ */
+	background-position: center;
+}
+
+.circle img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;  /* Bo đều ảnh mà không méo */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* tự động căn giữa */
+}
+
+.Over_head /* Phần vùng phía trên */
+{
+	
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100vw;
+/*    background-color: */
+    background-image: linear-gradient(0, var(--xam), black);
+    display: flex;  
+    align-items: center;       
+}
+
+
+.container
+{
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+/////////////////////////
+/* Các phần box ! */
+
+
+.box
+{
+	height: 100%;
+	display: flex;
+}
+
+.box2
+{
+	width: 60%;
+	/*box-sizing: border-box;*/
+  justify-content: center;
+  background-image: linear-gradient(180deg, #FFBC9A, #FF9E54);
+}
+
+.box1,
+.box2,
+.box3
+{
+	height: 100%;
+}
+.box1, .box3
+{
+	background-color: 	#CCCCCC;
+	width: 20%;
+}
+
+//////////////////////
+
+/* Phần đầu */
+h1
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.Over_head h1{
+	padding: 20px;
+	border: 20px;
+	font-size: 25px;
+ 	color: var(--cam);
+}
+
+
+///////////////////////
+
+/* Các thuộc tính trong Box2 */
+
+/* 
+
+
+
+*/
+/* Phần khung */
+
+.Khung_mp2
+{
+	height: 35vh;
+	width: 100vw;
+}
+
+/* Ảnh đại diện */
+.Phan1
+{
+	align-items: center;
+	justify-items: center;
+	height: 30vh;
+}
+
+/* Phần nội dung và chuyển màu ảo lòi */
+.Phan2
+{
+	display: flex;
+	height: 33vh
+}
+
+.Phan3
+{
+	display: flex;
+	height: 35vh;
+}
+
+
+/* Nội dung trong phần 2 */
+
+.Hinh_vuong
+{
+	justify-content: center;
+	display: flex;
+	height: 100%;
+	width: 50%;
+/*	background-color: gray;*/
+}
+
+.Khuon
+{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	height: 240px;
+	width: 200px;
+	background-color: #FDE5D3;
+	border: 3px solid var(--cam);
+}
+
+.Khuon p
+{
+	color: #2C2C2C;
+	font-size: 25px;
+}
+.Khuon h1
+{
+	color: #404040;
+}
+
+/* Phần hover cho từng khuôn */
+
+.Khuon:hover
+{
+	border: 3px solid #FDE5D3;
+	background-color: #FF7911;
+}
+
+.Khuon:hover p
+{
+	color: #FF7911;
+}
+/*.Khuon:hover ul, li 
+{
+	font-size: 25px;
+	color: white;
+}*/
+
+
+
+
+
+
+
+
