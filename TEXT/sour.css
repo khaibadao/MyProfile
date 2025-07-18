@@ -164,35 +164,46 @@ h1
 	width: 200px;
 	background-color: #FDE5D3;
 	border: 3px solid var(--cam);
+	position: relative;
+	transition: all 0.3s ease;
 }
-
-.Khuon p
-{
-	color: #2C2C2C;
-	font-size: 25px;
-}
-.Khuon h1
-{
-	color: #404040;
-}
-
-/* Phần hover cho từng khuôn */
 
 .Khuon:hover
 {
+	background-color: #FF8222;
 	border: 3px solid #FDE5D3;
-	background-color: #FF7911;
+	box-shadow: 0 8px 16px rgba(0,123,255,0.3);
+	transform: translateY(-6px);
+}
+.T1
+{
+	color : #263238;
+	font-size: 30px;
+	position: relative;
+	transition: all 0.3s ease;
 }
 
-.Khuon:hover p
+.T2
 {
-	color: #FF7911;
-}
-/*.Khuon:hover ul, li 
-{
-	font-size: 25px;
 	color: white;
-}*/
+	font-size: 30px	;
+	opacity: 0;
+	transition: all 0.3s ease;
+	position: absolute;
+}
+
+.Khuon:hover
+.T1
+{
+	opacity: 0;
+}
+
+.Khuon:hover
+.T2
+{
+	opacity: 1;
+}
+
 
 
 
