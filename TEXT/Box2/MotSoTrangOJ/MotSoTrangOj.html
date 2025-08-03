@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Một số trang OJ
+	</title>
+
+	<style>
+
+		*
+		{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+
+		.All-Screen
+		{
+			display: grid;
+		}
+		.Taskbar
+		{
+			height: 80px;
+			width: 100%;
+			background-image: linear-gradient(0, #C6FFF6,aquamarine);
+			position: relative;
+		}
+		.Nen
+		{
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+		}
+
+		.Box_left 
+		{
+			height: calc(100% - 80px);
+			width: 20%;	
+			background-color: #E4FFFF;
+		}
+
+		.Box_right
+		{
+			height: calc(100% - 80px);
+			width: 80%;
+			background-color: #C6FFF6;
+		}
+
+
+		.Khuon
+		{ 
+			height: 70px;
+			width: 50px;
+			border-radius: 10px;
+			background-color: #;
+		}
+
+		.Box_name
+		{
+			height: 100%;
+			width: 240px;
+			background-color: white;
+			position: absolute;
+			align-content: center;
+			justify-items: center;
+			background-color: transparent;
+			border-box: box-sizing
+			/*left: 0;*/
+		}
+
+		.Box_name h2
+		{
+			font-size: 25px;
+			color: #464646;
+			font-family: Roboto, monospace;
+		}
+
+		.Box_back
+		{
+			height: 100%;
+			width: 150px;
+			background-color: red;
+			position: absolute;
+			right: 0;
+			background-color: transparent;
+			align-content: center;
+			justify-items: center;
+		}
+
+		.Circle{
+			height: 40px;
+			width: 40px;
+			background-color: transparent;
+			border-radius: 50%;
+			transform: translate(-20px);
+		}
+
+		.Circle img
+		{
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+
+		/*/////////////////*/
+
+		/*Các phần dẫn tới các trang OJ*/
+
+		.Bo_cuc
+		{
+			height: 50%;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 300px;
+
+			/*border-box:;*/
+		}
+
+		.Khoi_bo_tron
+		{
+			height: 250px;
+			width: 300px;
+			border-radius: 40px;
+			border: 3px solid black;
+		}
+
+		.Khoi_bo_tron .header
+		{
+			height: 45px;
+			border-bottom: 3px solid black;
+			display: flex;
+			align-items: center;
+			justify-	content: center;
+			font-weight: bold;
+		}
+
+		.Khoi_bo_tron .body
+		{
+			height: calc(100% - 33px);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="All-Screen">
+		<div class="Taskbar">
+			<div class="Box_name">
+				<h2>
+					Lê Khải
+				</h2>
+			</div>
+			<div class="Box_back">
+				<div class="Circle">
+					<a href="../index.html">
+						<img src="../Content/Logo/Home.png" alt="Home_button">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="Nen">
+			<div class="Box_left"></div>
+			<div class="Box_right">
+				<div class="Bo_cuc">
+					<div class="Khoi_bo_tron"></div>
+					<div class="Khoi_bo_tron"></div>
+				</div>
+				<div class="Bo_cuc">
+					<div class="Khoi_bo_tron">
+						<div class="header"></div>
+					</div>
+					<div class="Khoi_bo_tron"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--
+	style="background-color: red;"
+	--> 	
+</body>
+</html>
+
