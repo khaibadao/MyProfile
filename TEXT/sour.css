@@ -191,7 +191,7 @@
 	color: var(--xam_xi);
 }
 
-.Nd2 a
+a.Nd2
 {
 	text-decoration: none;
 }
@@ -244,6 +244,7 @@
 	width: 30px;
 	/*background-color: navajowhite;*/
 	border-radius: 50%;
+	filter: invert(20%);
 
 }
 
