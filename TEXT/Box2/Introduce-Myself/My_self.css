@@ -1,0 +1,86 @@
+/*#6CFFF1*/
+:root
+{
+	--xanh_min: #6CFFF1;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.Box_container
+{
+	width: 70%;
+	transform: translateX(20%);
+	background-color: var(--xanh_min);
+	display: grid;
+	/*height: 100px;*/
+}
+
+/*Phần Avatar*/
+
+.Box_header
+{
+	margin-top: 20px;
+	display: flex;
+}
+
+.Box_header_img
+{
+	width: 40%;
+	height: 100%;
+	background-color: yellow;
+	align-content: center;
+	justify-items: center;
+}
+
+.Cirkle
+{
+	height: 280px;
+	width: 280px;
+	border-radius: 50%;
+	border: 2px solid black;
+	/*margin: 0 20px;*/
+}
+
+
+/*Phần Giới thiệu trong header*/
+
+.Box_header_content
+{
+	/*width: calc(100% - 40%);*/
+	width: 60%;
+	background-color: gray;
+	height: 100%;
+}
+
+hr
+{
+	border: 2px solid black;
+	margin: 10px 0;
+}
+
+/*Phần body*/
+
+.Box_body
+{
+	width: 100%;
+	display: flex;
+}
+
+.Box_body_right
+{
+	/*height: 100px;*/
+	width: 50%;
+	background-color: chocolate;
+}
+
+.Box_body_left
+{
+	width: 50%;
+	background-color: maroon;
+	/*height: 100px;*/
+}

@@ -178,7 +178,7 @@
 	height: 70px;
 	width: 35%;
 	background-color: white;
-	transform: translateY(40px);
+	/*transform: translateY(40px);*/
 	gap: 30px;
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 	/*align-items: center;*/
